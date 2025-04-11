@@ -60,11 +60,31 @@ body {
 
 .quote {
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    padding: 100px;
+}
+
+.quote-text {
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 200;
     color: #1f2937;
 }
+
+.author {
+    margin-left: auto;
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: 900;
+}
+
 .placeholder {
     background-color: #a8aeb9;
     color:#f9faf8;
